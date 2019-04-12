@@ -1,0 +1,44 @@
+h1{
+    font-family: Arial, Helvetica, left;
+    background: #cc99ff;
+    max-width: 80%;
+    
+    
+}
+
+body{
+
+    background-color: #ffcc99;
+    text-align: center;
+    max-width: 50%;
+}
+
+section{
+    background-color: #cc99ff;
+    max-width: 80%;
+    text-align: center;
+
+
+}
+
+article {
+    background-color: #cc99ff;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+   
+
+}
+
+img {
+border-image-width: 80%;
+
+
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1,5em;
+    text-align: left;
+    
+}
