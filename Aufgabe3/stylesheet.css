@@ -1,7 +1,7 @@
 h1{
     font-family: Arial, Helvetica, left;
     background: #cc99ff;
-    max-width: 80%;
+    max-width: 90%;
     
     
 }
@@ -10,12 +10,12 @@ body{
 
     background-color: #ffcc99;
     text-align: center;
-    max-width: 50%;
+    max-width: 90%;
 }
 
 section{
     background-color: #cc99ff;
-    max-width: 80%;
+    max-width: 90%;
     text-align: center;
     
 }
@@ -24,6 +24,7 @@ article {
     background-color: #cc99ff;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 90%;
 
 }
 
@@ -54,7 +55,7 @@ text align: left;
 background-color: #cc99ff;
 font-family: 'Franklin Gothic Medium';
 font-size: 2,5em;
-max-width: 80%;
+max-width: 90%;
 }
 
 header {
