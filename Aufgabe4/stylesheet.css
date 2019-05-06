@@ -12,6 +12,8 @@ h1{
 main{
     float: left;
     width: 75%;
+    margin-left: 25%;
+
 }
     
 }
@@ -93,7 +95,7 @@ background-color: #cc99ff;
 font-family: 'Franklin Gothic Medium';
 font-size: 2,5em;
 max-width: 100%;
-margin-top: 100em;
+clear:left;
 }
 
 header {
@@ -108,7 +110,7 @@ aside:hover{
     width: 32em;
     overflow: auto;
     float:left;
-    position: static;
+   
 
 
   }  
@@ -118,11 +120,12 @@ aside{
     width:25%;
     overflow: auto;
     float:left;
+    position: absolute;
+    background-color: green;
 
     
     
  
-    //*habe es leider nicht hinbekommen, dass aside inhalt nicht wegschiebt*//
     
 }
  div.Box{
