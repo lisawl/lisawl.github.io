@@ -5,7 +5,7 @@ window.onload = function () {
     document.getElementById("id1").addEventListener("click", ChangeClass);
     window.alert("Schon OK geklickt?");
     console.log("Seite geladen");
-
+    newelements();
 
     //Rechnung, Wertzuwesiung//
     let name: string = "Name"; //Typ String
@@ -19,6 +19,8 @@ window.onload = function () {
     console.log(name + number1);
     console.log(name + surname);
     console.log(number1);
+
+
 }
 
 //Button verändert sich auf Klick//
@@ -30,20 +32,20 @@ function ChangeName() {
 //Klasse eines HTML Elements verändert//
 function ChangeClass(){
     document.getElementById("id1").className = "Klasse2";
+    console.log("Neuer Klassenname: "+ document.getElementById("id1").className);
 
 }
 
 //Neue HTML Dateien erstellen//
-function newtext() {
-    let heading = document.createElement("h2");
-    let node = document.createTextNode("Diese Überschrift wurde mit TypeScript erstellt!");
-    heading.appendChild(node);
-    let element = document.getElementById("id3");
-    element.appendChild(heading);
-    let para = document.createElement("p");
-    node = document.createTextNode("Dieser Paragraph wurde mit TypeScript erstellt!");
-    para.appendChild(node);
-    element = document.getElementById("id3");
-    element.appendChild(para);
+function newelements() {
+    let NeuesDiv = document.createElement("div"); 
+    let NeuerButton = document.createElement("button"); 
+    document.body.appendChild(NeuesDiv); 
+    NeuesDiv.appendChild(NeuerButton); 
+    NeuerButton.innerHTML = "Button wurde durch TS erstellt";
+    console.log("Neue Button wurder erstellt");
+    let ZweiterButton = document.createElement("button"); 
+    NeuesDiv.appendChild(ZweiterButton); 
+    ZweiterButton.innerHTML = "Ich wurde auch durch TS erstellt";
 }
 
